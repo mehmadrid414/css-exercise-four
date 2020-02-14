@@ -36,28 +36,28 @@ h2 {
   margin: auto;
 }
 
-.preview baku {
+.baku {
  background-image: url("images/baku.jpg");
  background-color: #cccccc;
  background-size: cover;
  background-repeat: no-repeat;
 }
 
-.preview london {
+.london {
  background-image: url("images/london.png");
  background-color: #cccccc;
  background-size: cover;
  background-repeat: no-repeat;
 }
 
-.preview madrid {
+.madrid {
  background-image: url("images/madrid.jpg");
  background-color: #cccccc;
  background-size: cover;
  background-repeat: no-repeat;
 }
 
-.preview rome {
+.rome {
  background-image: url("images/rome.jpg");
  background-color: #cccccc;
  background-size: cover;
