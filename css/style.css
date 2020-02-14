@@ -97,7 +97,7 @@ h2 {
 }
 
 @media screen and (min-width: 991px){
-  /*For laptops/desktops - with four column display*/
+  /*For laptops - with four column display*/
   .preview {
   width: 20%;
   display: inline-block;
@@ -108,6 +108,31 @@ h2 {
   h1 {
   width: 100%;
   font-size: 16px;
+  padding: 10px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+ }
+
+  .container {
+    margin: 50px;
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 1100px){
+  /*For desktops - with four column display*/
+  .preview {
+  width: 20%;
+  display: inline-block;
+  margin: 17px;
+  align-items: center;
+  }
+
+  h1 {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
   font-family: sans-serif;
   text-transform: uppercase;
   text-align: center;
