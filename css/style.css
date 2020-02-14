@@ -36,28 +36,28 @@ h2 {
   margin: auto;
 }
 
-.previewbaku {
+.baku {
  background-image: url(https://raw.githubusercontent.com/mehmadrid414/css-exercise-four/master/images/baku.jpg);
  background-color: #cccccc;
  background-size: cover;
  background-repeat: no-repeat;
 }
 
-.previewlondon {
+.london {
  background-image: url(https://raw.githubusercontent.com/mehmadrid414/css-exercise-four/master/images/london.png);
  background-color: #cccccc;
  background-size: cover;
  background-repeat: no-repeat;
 }
 
-.previewmadrid {
+.madrid {
  background-image: url(https://raw.githubusercontent.com/mehmadrid414/css-exercise-four/master/images/madrid.jpg);
  background-color: #cccccc;
  background-size: cover;
  background-repeat: no-repeat;
 }
 
-.previewrome {
+.rome {
  background-image: url(https://raw.githubusercontent.com/mehmadrid414/css-exercise-four/master/images/rome.jpg);
  background-color: #cccccc;
  background-size: cover;
