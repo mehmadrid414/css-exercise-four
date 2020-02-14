@@ -10,7 +10,6 @@ body {
 .container {
   margin: 50px auto;
   width: 50%;
-  align-items: center;
 }
 
 .preview {
@@ -21,42 +20,45 @@ h1 {
   width: 100%;
   font-size: 22px;
   margin: 5px 30px 30px 5px;
-  padding: 10px 175px 175px 10px
+  padding: 10px 175px 175px 10px;
+  font-family: roboto condensed;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 h2 {
-  font-family: sans-serif;
+  font-family: serif;
   font-weight: lighter;
-  font-size: 35px;
+  font-size: 16px;
   padding: 20px;
-  text-align: center;
+  text-align: left;
   float: none;
   margin: auto;
 }
 
-.baku {
- background-image: url("../images/baku.jpg");
+.preview baku {
+ background-image: url("https://raw.githubusercontent.com/mehmadrid414/css-exercise-four/master/images/baku.jpg");
  background-color: #cccccc;
  background-size: cover;
  background-repeat: no-repeat;
 }
 
-.london {
- background-image: url("../images/london.png");
+.preview london {
+ background-image: url("https://raw.githubusercontent.com/mehmadrid414/css-exercise-four/master/images/london.png");
  background-color: #cccccc;
  background-size: cover;
  background-repeat: no-repeat;
 }
 
-.madrid {
- background-image: url("../images/madrid.jpg");
+.preview madrid {
+ background-image: url("https://raw.githubusercontent.com/mehmadrid414/css-exercise-four/master/images/madrid.jpg");
  background-color: #cccccc;
  background-size: cover;
  background-repeat: no-repeat;
 }
 
-.rome {
- background-image: url("../images/rome.jpg");
+.preview rome {
+ background-image: url("https://raw.githubusercontent.com/mehmadrid414/css-exercise-four/master/images/rome.jpg");
  background-color: #cccccc;
  background-size: cover;
  background-repeat: no-repeat;
@@ -71,9 +73,8 @@ h2 {
  }
 
  .container {
-   margin: 50px auto;
+   margin: 50px;
    width: 75%;
-   align-items: center;
  }
 }
 
@@ -86,8 +87,7 @@ h2 {
   }
 
   .container {
-    margin: 50px auto;
+    margin: 50px;
     width: 80%;
-    align-items: center;
   }
 }
