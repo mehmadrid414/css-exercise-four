@@ -19,11 +19,10 @@ body {
 h1 {
   width: 100%;
   font-size: 22px;
-  margin: 5px 30px 30px 5px;
-  padding: 10px 175px 175px 10px;
   font-family: sans-serif;
   text-transform: uppercase;
   text-align: center;
+  padding-bottom: 25px
 }
 
 h2 {
@@ -65,9 +64,10 @@ h2 {
 }
 
 @media screen and (min-width: 575px) {
+  /*For tablets - with two column display*/
  .preview {
-   width: 100%;
-   height: auto;
+   width: 40%;
+   height: 200px;
    display: inline-block;
    margin: 10px;
  }
@@ -79,9 +79,9 @@ h2 {
 }
 
 @media screen and (min-width: 991px){
+  /*For laptops/desktops - with four column display*/
   .preview {
-  width: 50%;
-  height: auto;
+  width: 20%;
   display: inline-block;
   margin: 10px;
   }
